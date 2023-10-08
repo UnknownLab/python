@@ -1,0 +1,7 @@
+version: '3'
+services:
+  python-static-server :
+    build: .
+    ports:
+      - "80:80"
+    tty: true
