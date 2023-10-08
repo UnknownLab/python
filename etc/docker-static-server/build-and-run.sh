@@ -1,0 +1,1 @@
+docker build -t python-static-server . && docker run -it --rm -p 80:80 python-static-server
